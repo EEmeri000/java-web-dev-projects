@@ -1,14 +1,20 @@
 public class Teacher {
     private String firstName;
-    private String LastName;
+    private String lastName;
     private String subject;
     private Double yearsTeaching;
+    public Teacher(String firstName, String lastName, String subject, Double yearsTeaching) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.subject = subject;
+        this.yearsTeaching = yearsTeaching;
+    }
 
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
     public void setLastName(String lastName) {
-        LastName = lastName;
+        lastName = lastName;
     }
     public void setSubject(String subject) {
         this.subject = subject;
@@ -20,7 +26,7 @@ public class Teacher {
         return firstName;
     }
     public String getLastName() {
-        return LastName;
+        return lastName;
     }
     public String getSubject() {
         return subject;
