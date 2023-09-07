@@ -31,6 +31,6 @@ public class CD extends BaseDisc{
 
     @Override
     public void destroyMicrowave() {
-
+        System.out.println("*green sparks* Now the microwave doesn't work.");
     }
 }

@@ -21,5 +21,8 @@ public class Main {
 
         myCd.reportInfo();
         myDvd.reportInfo();
+
+        myCd.destroyMicrowave();
+        myDvd.destroyMicrowave();
     }
 }

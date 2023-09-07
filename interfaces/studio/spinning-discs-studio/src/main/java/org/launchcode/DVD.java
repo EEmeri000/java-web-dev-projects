@@ -31,6 +31,6 @@ public class DVD extends BaseDisc{
 
     @Override
     public void destroyMicrowave() {
-
+        System.out.println("*blue sparks* Now the microwave doesn't work.");
     }
 }
